@@ -1,0 +1,16 @@
+<md-content class="md-padding">
+
+  <md-card>
+    <img ng-src="{{ctrl.item.Poster}}" class="md-card-image" alt="{{item.Title}}">
+    <div>
+        <div>
+            <h2>{{ctrl.item.Title}}</h2>
+        </div>
+        <div class="ratemovie-item-content">
+            <strong>Resumen</strong>
+            <p>{{ctrl.item.Plot}}</p>
+        </div>
+        <md-button class="md-raised md-primary" aria-label="description" ng-click="ctrl.GoBack()">Atras</md-button>  
+    </div>
+  </md-card>
+</md-content>
